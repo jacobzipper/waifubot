@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "WaifuBot",
+  "version": "1.0",
+
+  "description": "Approve WaifuBot's sugoi profile picture recommendations!",
+  "homepage_url": "https://github.com/jacobzipper/WaifuBot",
+  "icons": {
+    "48": "images/tomo-48.png",
+    "96": "images/tomo-96.png"
+  },
+
+  "permissions": [
+    "storage"
+  ],
+
+  "options_ui": {
+    "page": "html/signup.html",
+    "browser_style": true,
+    "chrome_style": true
+  },
+
+  "browser_action": {
+    "default_icon": "images/tomo-32.png",
+    "default_title": "WaifuBot",
+    "default_popup": "html/main.html"
+  }
+
+}
